@@ -28,9 +28,29 @@ body {
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     margin-bottom: 5px;
 }
-.themes{
+
+
+/* configuração para evitar saair do main os botões */
+.themes {
     text-align: left;
     margin-top: 5px;
     display: flex;
-    gap: 20px; /* Espaçamento entre os botões */
+    gap: 20px;
+    flex-wrap: wrap; /* Permite quebrar linha */
+    justify-content: flex-start; /* Alinha à esquerda */
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 98%;
+        padding: 10px;
+    }
+    .themes {
+        gap: 10px;
+        justify-content: center; /* Centraliza os botões em telas pequenas */
+    }
+    .theme-btn img {
+        width: 40px;
+        height: 40px;
+    }
 }
