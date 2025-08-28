@@ -9,7 +9,7 @@ Por enquanto para criação desse negócio estou apenas utilizando HTML e CSS
 
 ## 📌 Próximas features
 
-Implementar um sistema de comentários 
+Implementar um sistema de comentários <br>
 Criar uma aba de pesquisa <br>
 Simulador do Brasileirão <br>
 Sistema para gerenciar os posts <br>
