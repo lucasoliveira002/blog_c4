@@ -1,10 +1,10 @@
 const posts = [
     {
-        titulo: "First Post",
-        resumo: "This is the content of the first post.",
+        titulo: "Morango do Amor: Talvez eu seja o único brasileiro que não experimentoukkkk",
+        resumo: "Falaram por aí que quebra os dentes. Os dentistas devem estar felizes com isso.",
         link: "post1.html",
         data: "2025-08-01",
-        imagem: "first-post.jpg"
+        imagem: "../images/icons/morango.jpeg"
     },
     {
         titulo: "Uma breve história do servidor de minecraft com meus  amiguinhos",

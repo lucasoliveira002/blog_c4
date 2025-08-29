@@ -4,20 +4,28 @@ body {
     background-position: center; 
 }
 
-.container {
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    box-sizing: border-box;
+/*Não estou conseguindo alinhar a div kkkkkkkkkkkk queria q os botões da nav terminassem
+no mesmo lugar q a imagem termina e não ficasse extrapolando o  limite slk*/
+
+header {
+    display: flex;
+    
 }
 
-main {
-    width: 100%;
-    overflow-x: hidden; /* Evita rolagem horizontal */
-    box-sizing: border-box;
+.spacer {
+    padding-left: 3%;
+    width: 200px;
+}
+
+/* fonte para explorar dps Brush Script */
+.spacer h1 {
+  font-family: brush script mt, cursive;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+
+nav {
+    margin-top: 10px;
 }
 
 .themes {
@@ -27,7 +35,7 @@ main {
     justify-content: flex-start;
     width: 100%;
     box-sizing: border-box;
-    margin-top: 5px;
+    margin-top: 25px;
     text-align: left;
 }
 
@@ -82,3 +90,20 @@ main {
         height: 40px;
     }
 }
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    overflow-x: hidden; /* Evita rolagem horizontal */
+    box-sizing: border-box;
+}
+
