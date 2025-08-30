@@ -2,14 +2,14 @@ const posts = [
     {
         titulo: "Morango do Amor: Talvez eu seja o único brasileiro que não experimentoukkkk",
         resumo: "Falaram por aí que quebra os dentes. Os dentistas devem estar felizes com isso.",
-        link: "post1.html",
+        link: "pages/postagens/morango-do-amor.html",
         data: "2025-08-01",
         imagem: "../images/icons/morango.jpeg"
     },
     {
         titulo: "Uma breve história do servidor de minecraft com meus  amiguinhos",
         resumo: "Nesse post você irá descobrir a história do servidor de minecraft que tive com alguns amigos e todas as confusões que teve nele.",
-        link: "post2.html",
+        link: "pages/postagens/post2.html",
         data: "2025-08-28",
         imagem: "../images/icons/jogos.jpg"
     },

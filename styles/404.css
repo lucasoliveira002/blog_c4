@@ -1,0 +1,30 @@
+h1{
+    color: #ffffff;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+a{
+    color:#15b8c7;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: justify; /* Justifica o texto para melhor legibilidade */
+    align-items: right;
+}
+
+.error-image{
+    color: #ffffff;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
